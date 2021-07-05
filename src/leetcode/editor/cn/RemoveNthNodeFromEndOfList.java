@@ -24,8 +24,6 @@
 
 package leetcode.editor.cn;
 
-import javax.xml.stream.events.EndDocument;
-
 public class RemoveNthNodeFromEndOfList {
  public static void main(String[] args) {
 
