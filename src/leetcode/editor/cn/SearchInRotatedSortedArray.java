@@ -36,9 +36,71 @@ public class SearchInRotatedSortedArray {
  }
  //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int search(int[] nums, int target) {
-        return target;
+     public int search(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
+
+        while (left <= right){  //必须有等号，如果数组只有一个数字时还能执行一次循环，判断target值是否就是数组中的那个数
+            int mid = (left + right) / 2;
+            if (target == nums[mid])
+                return mid;
+        //    根据题目条件，数组的左半部分或者右半部分必然有一部分有序
+            else if (nums[mid] < nums[right]){   //如果中间值小于最右边值，那么说明右半部分有序
+                //如果target值大于中间值小于右端值，那么必然在右半数组
+                if (nums[mid] < target && target <= nums[right]){   //注意等号
+                    left = mid + 1;
+                }
+                else {
+                    right = mid - 1;
+                }
+            }else { //如果中间值大于最右边值，那么说明左半部分有序
+                //如果target值大于左端值小于中间值，那么必然在左半数组
+                if (nums[left] <= target && target < nums[mid]){    //注意等号
+                    right = mid - 1;
+                }
+                else {
+                    left = mid + 1;
+                }
+            }
+        }
+        return -1;
+     }
+    // 超时。。。
+    public int search_me(int[] nums, int target) {
+
+        //使用二分查找的方法，从中间开始比较
+        int left = 0;
+        int right = nums.length - 1;
+        int length = nums.length;
+
+        if (length == 0) {
+            return -1;
+        }
+        if (length == 1) {
+            return nums[0] == target ? 0 : -1;
+        }
+
+        while (left <= right){
+            int mid = (left + right) / 2;
+            //  此处设置二分查找的的数值
+            if (nums[mid] == target){
+                return mid;
+            }
+            //目标值大于中间值，但是大于最右端的值，此时如果存在符合结果的数组下标，那么一定在左半数组
+            else if(target > nums[mid] && target > nums[right]){
+                right = mid - 1;
+            }else if (target > nums[mid] && target < nums[right]){//目标值大于中间值，小于最右端的值，在有半数组
+                left = mid + 1;
+            //    目标值小于中间值,大于最左端的值，如果存在符合要求的结果，在左半数组
+            }else if (target < nums[mid] && target > nums[left]){
+                right = mid - 1;
+            }else if (target < nums[mid] && target < nums[left]){  //    目标值小于中间值,小于最左端的值，在右半数组
+                left = mid + 1;
+            }
+        }
+        return -1;
     }
+
+
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
