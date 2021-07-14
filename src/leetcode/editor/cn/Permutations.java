@@ -21,9 +21,7 @@
 
 package leetcode.editor.cn;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class Permutations {
  public static void main(String[] args) {
@@ -33,8 +31,49 @@ public class Permutations {
  //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> res = new ArrayList<ArrayList<Integer>>();
+        int len = nums.length;
+        // 使用一个动态数组保存所有可能的全排列
+        List<List<Integer>> res = new ArrayList<>();
+        if (len == 0) {
+            return res;
+        }
 
+        boolean[] used = new boolean[len];
+        Deque<Integer> path = new ArrayDeque<>(len);
+
+        dfs(nums, len, 0, path, used, res);
+        return res;
+
+    }
+
+    //参数依次为需要全排列的数组，数组长度，当前遍历的深度，当前已遍历的路径，已被选择的数组中的数字，结果列表
+    private void dfs(int[] nums, int len, int depth,
+                     Deque<Integer> path, boolean[] used,
+                     List<List<Integer>> res){
+
+        //当前遍历的深度与数组长度相同，说明数组中的数字都被遍历过
+        if (depth == len){
+            res.add(new ArrayList<>(path));
+            return;
+        }
+
+        //依次添加数组中的每个数字
+        for (int i = 0; i < len; i++){
+        //    先判断当前要添加数字是否被选择过
+            if (!used[i]){
+            //    没有被选择过，在末端添加进当前双端队列路径
+                path.addLast(nums[i]);
+            //    同时将该数字置为已经被选择过
+                used[i] = true;
+
+                //继续向更深一层遍历
+                dfs(nums, len, depth + 1, path, used, res);
+                //    将当前添加的数字移除，回溯至上一层
+                path.removeLast();
+                //    同时置为未被选择过
+                used[i] = false;
+            }
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
