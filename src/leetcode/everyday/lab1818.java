@@ -69,6 +69,7 @@ public class lab1818 {
             int diff = Math.abs(nums1[i] - nums2[i]);
             sum = (sum + diff) % MOD;
             int j = binarySearch(rec, nums2[i]);
+            //分别计算最接近数字左右右边的数，即这个值可能在二分查找过程中的 `mid-1`/`mid`/`mid+1` 中出现
             if (j < n) {
                 maxn = Math.max(maxn, diff - (rec[j] - nums2[i]));
             }
