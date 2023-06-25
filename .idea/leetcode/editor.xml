@@ -3,73 +3,25 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
-        <entry key="$PROJECT_DIR$/../Leetcode/src/leetcode/editor/cn/RegularExpressionMatching.java">
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/CanMakeArithmeticProgressionFromSequence.java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../Leetcode/src/leetcode/editor/cn/RegularExpressionMatching.java" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/CanMakeArithmeticProgressionFromSequence.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1502" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/CanMakeArithmeticProgressionFromSequence.java" />
+              <option name="titleSlug" value="can-make-arithmetic-progression-from-sequence" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../Leetcode/src/leetcode/editor/cn/ValidParentheses.java">
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/CircleAndRectangleOverlapping.java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../Leetcode/src/leetcode/editor/cn/ValidParentheses.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ClimbingStairs.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ClimbingStairs.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/CombinationSum.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/CombinationSum.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ContainerWithMostWater.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ContainerWithMostWater.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/EditDistance.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/EditDistance.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/GroupAnagrams.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/GroupAnagrams.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/JumpGame.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/JumpGame.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/LongestValidParentheses.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/LongestValidParentheses.java" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/CircleAndRectangleOverlapping.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1401" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/CircleAndRectangleOverlapping.java" />
+              <option name="titleSlug" value="circle-and-rectangle-overlapping" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -77,45 +29,10 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/MaximumSubarray.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com53" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn53" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/MaximumSubarray.java" />
               <option name="titleSlug" value="maximum-subarray" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/MergeIntervals.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/MergeIntervals.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/MinimumPathSum.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/MinimumPathSum.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/MinimumWindowSubstring.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/MinimumWindowSubstring.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/Permutations.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/Permutations.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/RegularExpressionMatching.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/RegularExpressionMatching.java" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -123,24 +40,10 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/RemoveDuplicatesFromSortedArray.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com26" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn26" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/RemoveDuplicatesFromSortedArray.java" />
               <option name="titleSlug" value="remove-duplicates-from-sorted-array" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/RotateImage.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/RotateImage.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/SearchInRotatedSortedArray.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/SearchInRotatedSortedArray.java" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -148,24 +51,10 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ShuZiXuLieZhongMouYiWeiDeShuZiLcof.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 44" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 44" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ShuZiXuLieZhongMouYiWeiDeShuZiLcof.java" />
               <option name="titleSlug" value="shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/SortColors.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/SortColors.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/UniquePaths.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/UniquePaths.java" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -173,8 +62,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ZuiXiaoDeKgeShuLcof.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 40" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 40" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ZuiXiaoDeKgeShuLcof.java" />
               <option name="titleSlug" value="zui-xiao-de-kge-shu-lcof" />
             </LeetcodeEditor>
